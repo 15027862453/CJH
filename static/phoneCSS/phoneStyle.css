@@ -125,7 +125,7 @@
 .domestic_list{height: 41rem;}
 .domestic_list li{height: 3.65rem;margin-bottom: .5rem;}
 .domestic_list .list_img{width: 100%; height: 3.65rem;}
-.domestic_list .list_img img{width:6.4rem;height: 3.65rem;}.domestic_list .list_text{width:7.5rem;padding:0.3rem 0 ;}
+.domestic_list .list_img img{width:6.4rem;height: 100%;float: left;}.domestic_list .list_text{width:7.4rem;padding:0.3rem 0 ;box-sizing: border-box;}
 .domestic_list .list_text h4,.domestic_list .list_text p{width: auto;}
 .details_title h4,.domestic h4{width: auto;}
 .domestic_top_text{background-color: #f6f6f6;margin-bottom: 0.5rem;}
