@@ -1,0 +1,216 @@
+
+/* 主体 */
+.main{
+  margin-top: 26px;
+}
+/* 右侧内容 */
+.content .title{
+  margin-top: -13px;
+  margin-bottom: 30px;
+}
+.content .title .title_left h4{
+  color: #333333;
+  border-bottom: 2px solid #003B81;
+}
+/* 招聘信息 */
+.recruit_list{
+  height: 1360px;
+  overflow: hidden;
+}
+.recruit_list li{
+  width: 770px;
+  height: 170px;
+  border-bottom: 1px solid #F5F5F5;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.recruit_list li:hover{
+  background-color: #f5f5f5;
+}
+.recruit_title{
+  padding-top: 10px;
+  box-sizing: border-box;
+  line-height: 52px;color: #333;
+}
+.recruit_title h5{
+  font-size: 20px;
+}
+.recruit_title p{
+  font-size: 14px;
+}
+.recruit_money{
+  line-height: 20px;
+}
+.recruit_money p{
+  font-size: 14px;
+  color: #E51212;
+}
+.recruit_money p span{
+  font-weight: bold;
+  font-size: 20px;
+  color: #E51212;
+}
+.recruit_money em img{
+  width: 15px;
+  height: 17px;
+}
+.recruit_money em {
+  font-size: 14px;
+  color: #333;
+}
+.recruit_ask p{
+  font-size: 16px;
+  color: #999999;
+  line-height: 48px;
+}
+.recruit_ask2 p{
+  font-size: 16px;
+  color: #999999;
+}
+/* 就业服务 创业服务 */
+.obtain_list{
+  height: 1066px;
+  overflow: hidden;
+}
+.obtain_list li{
+  float: left;
+  width: 370px;
+  height: 250px;
+  background-color: #F6F6F6;
+  margin-bottom: 22px;
+  margin-right: 30px;
+}
+.obtain_list li .obtain_img{
+  width: 370px;
+  height: 190px;
+}
+.obtain_list li .obtain_img img{
+  width: 100%;
+  height: 100%;
+}
+.obtain_list li p{
+  width: 370px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.obtain_list li:hover p{
+  color: #003B81;
+}
+.obtain_list li:nth-child(2n){
+  margin-right: 0;
+}
+.obtain_list>li:first-child +li,
+.obtain_list>li:first-child +li+li+li,
+.obtain_list>li:first-child +li+li+li+li+li,
+.obtain_list>li:first-child +li+li+li+li+li+li+li,
+.obtain_list>li:first-child +li+li+li+li+li+li+li+li+li,
+.obtain_list>li:first-child +li+li+li+li+li+li+li+li+li+li+li,
+  .obtain_list>li:first-child +li+li+li+li+li+li+li+li+li+li+li+li+li{
+  margin-right: 0;
+}
+/* 详情 */
+/*就业创业 详情 */
+.details{
+  text-align: center;
+}
+.details_title h4{
+  width: 584px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #333333;
+  line-height: 22px;
+}
+.details .img{
+  width: 100%;height: 510px;
+  margin: 10px 0;
+}
+.details .img img{
+  width: 100%;
+  height: 100%;
+}
+.details_time p{
+  font-size: 14px;
+  color: #333;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+.details_conter p{
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+/* 招聘信息 详情 */
+.rtdetails_title{
+  height: 74px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.title_top h5{
+  font-size: 20px;
+  color: #333333;
+}
+.title_top p{
+  font-size: 14px;
+  color: #333;
+}
+.rtdetails_title>p{
+  font-size: 14px;
+  color: #333333;
+  line-height: 52px;
+}
+.rtdetails_title>p img{
+  width: 15px;height: 17px;
+  margin-top: 16px;
+}
+.recruitDetails h5{
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.recruitDetails h5 span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #013383;
+  margin-right: 10px;
+}
+.rt_describe{
+  width: 400px;
+  margin-bottom: 20px;
+}
+.rt_describe_lt .t1{
+  font-size: 16px;
+  color: #E51212;
+}
+.rt_describe_lt .t1 span{
+  font-weight: bold;
+}
+.rt_describe_lt p{
+  font-size: 16px;color: #333;
+  line-height: 42px;
+}
+.rt_describe_rt p{
+  font-size: 16px;color: #333;
+  line-height: 42px;
+}
+.rt_phone p a{
+  line-height: 62px;
+  font-size: 16px;
+  color: #333333;
+}
+.rt_work_describe p{
+  font-size: 16px;
+  line-height: 30px;
+}
+.mb{
+  margin-top: 30px;
+}

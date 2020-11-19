@@ -1,0 +1,98 @@
+/* 主体 */
+.main{
+  margin-top: 26px;
+}
+/* 右侧内容 */
+.title{
+  margin-top: -13px;
+  margin-bottom: 30px;
+}
+.title .title_left h4{
+  color: #333333;
+  border-bottom: 2px solid #003B81;
+}
+/* 内容 */
+.tranin_list{
+  height: 1066px;
+  overflow: hidden;
+}
+.tranin_list li{
+  float: left;
+  width: 370px;
+  height: 250px;
+  background-color: #F6F6F6;
+  margin-bottom: 22px;
+  margin-right: 30px;
+}
+
+.tranin_list li .tranin_img{
+  width: 370px;
+  height: 190px;
+}
+.tranin_list li .tranin_img img{
+  width: 100%;
+  height: 100%;
+}
+.tranin_list li p{
+  width: 370px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tranin_list li:hover p{
+  color: #003B81;
+}
+.tranin_list li:nth-child(2n){
+  margin-right: 0;
+}
+.tranin_list>li:first-child +li,
+.tranin_list>li:first-child +li+li+li,
+.tranin_list>li:first-child +li+li+li+li+li,
+.tranin_list>li:first-child +li+li+li+li+li+li+li,
+.tranin_list>li:first-child +li+li+li+li+li+li+li+li+li,
+.tranin_list>li:first-child +li+li+li+li+li+li+li+li+li+li+li,
+  .tranin_list>li:first-child +li+li+li+li+li+li+li+li+li+li+li+li+li{
+  margin-right: 0;
+}
+/* 详情 */
+.tranin_details{
+  width: 770px;
+  background-color: #F5F5F5;
+}
+.tranin_details .details_img{
+  width: 100%;
+  height: 300px;
+}
+.tranin_details .details_img img{
+  width: 100%;
+  height: 100%;
+}
+.tranin_details .details_title h5{
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+.tranin_details .details_time p{
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.tranin_details .details_conter{
+  padding: 0 20px 30px;
+  box-sizing: border-box;
+}
+.tranin_details .details_conter p{
+  line-height: 32px;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 25px;
+}

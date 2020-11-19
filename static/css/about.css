@@ -1,0 +1,383 @@
+
+/* 主体 */
+.main{
+  margin-top: 26px;
+}
+/* 右侧内容 */
+.title{
+  margin-top: -13px;
+  margin-bottom: 30px;
+}
+.title .title_left h4{
+  color: #333333;
+  border-bottom: 2px solid #003B81;
+}
+/* 单独内容  */
+/* 简介 */
+.introduction_img{
+  width: 100%;
+  height: 270px;
+  margin-bottom: 15px;
+}
+.introduction_img img{
+  width: 100%;
+  height: 100%;
+}
+.introduction_text p{
+  line-height: 36px;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+/* 组织机构 */
+.form{
+  width: 770px;
+  text-align: center;
+}
+.form_title p{
+  font-size: 20px;
+  color: #01357B;
+  margin-bottom: 10px;
+}
+.form_title h4{
+  font-size: 30px;
+  font-weight: bold;
+  color: #01357B;
+  margin-bottom: 30px;
+}
+.form_tree{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.form_tree p{
+  position: absolute;
+  width: 164px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  background-color: #013383;
+  color: #FFF;
+  font-size: 16px;
+  border-radius: 3px;
+  -moz-border-radius:3px;    
+  -webkit-border-radius:3px;
+  behavior:url(../PIE/PIE.htc);
+}
+.form_tree .t1{
+  width: 324px;
+  font-weight: bold;
+  top: 0;left: 50%;
+  margin-left: -162px;
+}
+.form_tree .t2,
+.form_tree .t3{
+  margin: 0 auto;
+}
+.form_tree .t2{
+  left: 50%;
+  top: 81px;
+  margin-left: -82px;
+}
+.form_tree .t3{
+  left: 50%;
+  top: 161px; 
+  margin-left: -82px;
+}
+.form_tree span{
+  position: absolute;
+  background-color: #DCDCDC;
+  display: block;
+}
+.form_tree .s1{
+  width: 2px;
+  height: 190px;
+  left: 50%;
+  margin-left: -1px;
+  top: 46px;
+}
+.form_tree .s2{
+  width: 606px;
+  height: 2px;
+  left: 50%;
+  margin-left: -303px;
+  top: 235px;
+}
+.form_tree p span{
+  position: absolute;
+  left: 50%;
+  top: -43px;
+  width: 2px;
+  height: 43px;
+  margin-left: -1px;
+}
+.form_tree .t4{
+  left: 82px;
+  top: 279px;
+  margin-left: -82px;
+}
+.form_tree .t5{
+  left: 287px;
+  top: 279px;
+  margin-left: -82px;
+}
+.form_tree .t6{
+  left: 487px;
+  top: 279px;
+  margin-left: -82px;
+}
+.form_tree .t7{
+  left: 687px;
+  top: 279px;
+  margin-left: -82px;
+}
+.form_tree .t8{  
+  left: 487px;
+  top: 368px;
+  margin-left: -82px;
+}
+.form_tree .t9{
+  left: 487px;
+  top: 457px;
+  margin-left: -82px;
+}
+.form_tree .s3{
+  left: 50%;
+  top: 46px;
+}
+.form_tree .s4{
+  width: 725px;
+  height: 2px;
+  left: 50%;
+  top:545px;
+  margin-left: -362px;
+}
+.form_tree .sp{
+  width: 46px;
+  height: 145px;
+  padding: 5px 2% 0;
+  box-sizing: border-box;
+  line-height: 18px;
+  top: 589px;
+}
+.form_tree .t11{
+  left: 86px;
+}
+.form_tree .t12{
+  left: 177px;
+}
+.form_tree .t13{
+  left: 268px;
+}
+.form_tree .t14{
+  left: 360px;
+}
+.form_tree .t15{
+  left: 451px;
+}
+.form_tree .t16{
+  left: 542px;
+}
+.form_tree .t17{
+  left: 633px;
+}
+.form_tree .t18{
+  left: 724px;
+}
+/* 本会章程 */
+.system_content{
+  width: 770px;
+}
+.system_content p{
+  line-height: 36px;
+  font-size: 16px;
+  color: #333;
+}
+.system_content h5{
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+/* 规章制度 */
+.rules_list{
+  height: 865px;
+  overflow: hidden;
+}
+.rules_list li{
+  width: 100%;
+  height: 54px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EBEBEB;
+  font-size: 16px;
+}
+.rules_list  a{
+  width: 100%;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+.rules_list  a span{
+  width: 6px;
+  height: 6px;
+  background-color: #013383;
+  border-radius: 50%;
+  -moz-border-radius:50%;    
+  -webkit-border-radius:50%;
+  margin-right: 12px;
+  behavior:url(../../PIE/PIE.htc);
+}
+.rules_list em{
+  margin-left: auto;
+  color: #999;
+}
+/* 规章制度详情 */
+.rules_details{
+  width: 770px;
+  overflow: hidden;
+}
+.rules_details_title{
+  text-align: center;
+}
+.rules_details_title h5{
+  font-size: 16px;
+  color: #333;
+}
+.rules_details_title p{
+  font-size: 14px;
+  color: #999999;
+  margin-top: 5px;
+}
+.rules_details_content p{
+  line-height: 36px;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+/* 本会领导 */
+.leader{
+  width: 770px;
+  overflow: hidden;
+}
+/* 领导第一个 */
+.leader_top{
+  width: 100%;
+  height: 270px;
+  background-color: #ECECEC;
+}
+.leader_top_img {
+  float: left;
+  width: 390px;
+  height: 270px;
+}
+.leader_top_img img{
+  width: 100%;
+  height: 100%;
+}
+.leader_top_describe{
+  width: 340px;
+  float: left;
+  color: #333;
+  padding:  20px;
+}
+.leader_top_describe h4{
+  font-size: 16px;
+}
+.leader_top_describe span{
+  display: inline-block;
+  font-size: 14px;
+}
+.leader_top_list{
+  height: 120px;
+  overflow: hidden;
+}
+.leader_top_describe p{
+  font-size: 12px;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.leader_top_describe a{
+  font-size: 14px;
+  color: #013383;
+}
+/* 列表 */
+.leader_list{
+  margin-top: 30px;
+}
+.leader_list li{
+  float: left;
+  width: 240px;
+  height: 308px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+.leader_list li:nth-child(3n){
+  margin-right: 0;
+}
+.leader_list>li:first-child +li+li{
+  margin-right: 0;
+}
+.leader_list>li:first-child +li+li+li+li+li{
+  margin-right: 0;
+}
+.leader_list>li:first-child +li+li+li+li+li+li+li+li{
+  margin-right: 0;
+}
+.leader_list>li:first-child +li+li+li+li+li+li+li+li+li+li+li{
+  margin-right: 0;
+}
+.leader_list li .describe{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ECECEC;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+.leader_list li .list_img{
+  width: 240px;
+  height: 258px;
+}
+.leader_list li .list_img img{
+  width: 100%;
+  height: 100%;
+}
+.leader_list li h5{
+  float: left; 
+  font-size:16px;
+  color: #333;
+}
+.leader_list li span{
+  float: right;
+  font-size: 14px;
+  color: #333;
+}
+/* 本会领导详情 */
+.leaderDetails_img{
+  width: 240px;
+  height: 258px;
+}
+.leaderDetails_img img{
+  width: 100%;
+  height: 100%;
+}
+.leaderDetails_conter{
+  width: 506px;
+  color: #333;
+}
+.leaderDetails_conter h5{
+  line-height: 44px;
+  font-size: 16px;
+}
+.leaderDetails_conter span{
+  font-size: 14px;
+  line-height: 30px;
+}
+.leaderDetails_conter p{
+  font-size: 12px;
+  line-height: 36px;
+}

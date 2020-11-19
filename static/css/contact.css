@@ -1,0 +1,216 @@
+
+.main{margin-top: 26px;}
+.content .title h4{
+  color: #333;
+}
+/* 联系我们 */
+.map .map_top1{
+  display: none;
+  display: block\9;
+}
+.map{
+  width:770px;
+}
+.position{
+  width: 300px;
+  height: 60px;
+  line-height:60px;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 10px;
+  -moz-border-radius:10px;    
+  -webkit-border-radius:10px;
+  behavior:url(../../PIE/PIE.htc);
+  font-size: 20px;
+  color: #333333;
+  user-select: none;
+}
+#container{
+  width:770px;
+  height: 370px;
+  display: none\9;
+}  
+.map_list li{
+  float: left;
+  width: 50%;
+  text-align: center;
+  overflow: hidden;
+}
+.map_list li .map_img{
+  overflow: hidden;
+}
+.map_list li .map_img img{
+  margin-top: 54px;
+}
+.map_list li span,
+.map_list li em{
+  display: block;
+  font-size: 16px;
+}
+.map_list span{
+  color: #999999;
+  line-height: 54px;
+}
+.map_list em{
+  /* width: ; */
+  color: #333;
+}
+/* 在线留言 */
+.message_content{
+  width: 100%;
+  height: 425px;
+  background-color: #F5F5F5;
+  padding: 20px 30px 0 40px;
+  box-sizing: border-box;
+}
+.message_content input{
+  position: relative;
+  width: 240px;
+  height: 44px;
+  line-height: 44px;
+  background-color: #DEDEDE;
+  border-radius: 4px;
+  -moz-border-radius:4px;    
+  -webkit-border-radius:4px;
+  behavior:url(../PIE/PIE.htc);
+  padding: 0 15px;
+  box-sizing: border-box;
+  color: #333;
+  margin-left: 10px;
+}
+.message_content label,
+.message_content span{
+  font-size: 16px;color: #333;
+}
+.message_title h5{
+  font-size: 20px;
+  color: #013383;
+  margin-bottom: 15px;
+}
+.message_name{
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  margin-bottom: 15px;
+}
+.message_mail{
+  display: inline-block;
+  margin-right: 35px;
+}
+.message_phone{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.message_msg p{
+  font-size: 16px;
+  margin-top: 10px;
+}
+.message_msg textarea{
+  width: 647px;
+  height: 160px;
+  background-color: #DEDEDE !important;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  border-radius: 4px;
+  -moz-border-radius:4px;    
+  -webkit-border-radius:4px;
+  behavior:url(../PIE/PIE.htc);
+}
+.message_btn{
+  float: right;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #013383 !important;
+  margin-top: 15px;
+  border-radius: 4px;
+  -ms-border-radius:4px;
+  -moz-border-radius:4px;    
+  -webkit-border-radius:4px;
+  behavior:url(../PIE/PIE.htc);
+}
+.message_btn a{
+  display: block;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  color: #FFF;
+  font-size: 16px;
+}
+/* 加入我们 */
+.join{
+  margin-bottom: 65px;
+}
+.join img{
+  width: 100%;
+  height: 310px;
+  margin: 55px 0 33px;
+}
+.join .join_list li{
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.join .join_list li .list_title{
+  position: relative;
+  overflow: hidden;
+}
+.join .join_list li .list_title img{
+  position: absolute;right: 24px;
+}
+.join .join_list li .list_title .jia{ 
+  width: 24px;height: 24px;
+  top: -12px;
+  opacity: 1;
+  transition: .35s linear;
+}
+.join .join_list li .list_title .jian{
+  width: 24px;height: 1px;
+  top: 0px;
+  transition: .35s linear;
+}
+.join .join_list li .list_title h4{
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  font-weight: normal;
+  background: #F5F5F5;
+  padding-left: 40px;
+  box-sizing: border-box; 
+  font-size: 20px;
+  color: #333333;
+  transition: .35s linear;
+}
+.join .join_list .list_content{
+  display: none\9;
+  height: 0;
+  overflow: hidden !important;
+  transition: .35s linear;
+  font-size: 14px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  color: #333333;
+}
+.join .join_list .list_content .list_title h5{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 25px 0 15px;
+}
+.join .join_list .list_btn a{
+  float: right;
+  width: 152px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: #333333;
+  border-radius: 18px;
+  -moz-border-radius:18px;    
+  -webkit-border-radius:18px;
+  behavior:url(../../PIE/PIE.htc);
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-right: 86px;
+  margin-top: 34px;
+}
